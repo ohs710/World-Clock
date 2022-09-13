@@ -10,13 +10,14 @@
 
 .vertical-line {
     width: 5px;
-    height: calc((2305 / 4042)*100vw);
+    /*height: calc((2305 / 4000)*90vw);*/
+    height: 1190px;
     background-color: black;
 
     /* margin: 45px; */
 }
 .vertical-line:hover {
-background-color:#ff0000;
+background-color:rgb(171, 207, 255);
 }
 #wrapper{
     margin:0 5vw;
@@ -25,9 +26,10 @@ background-color:#ff0000;
    /* background-color: blue;*/
    /* opacity: 40%; */
     position:absolute;
-    top: 0px;
-    left:0px;
-    height:calc((2305 / 4042)*100vw);
+    top: 90px;
+    left:8px;
+    /*height:calc((2305 / 4042)*100vw);*/
+    height: 90%;
     object-fit: contain;
     display: flex;
     justify-content: space-evenly;
