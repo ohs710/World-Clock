@@ -1,1 +1,45 @@
+#bg{
+    position:static;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+   /* object-fit: contain;*/
+    opacity: 100%;
+}
 
+.vertical-line {
+    width: 5px;
+    height: calc((2305 / 4042)*100vw);
+    background-color: black;
+
+    /* margin: 45px; */
+}
+.vertical-line:hover {
+background-color:#ff0000;
+}
+#wrapper{
+    margin:0 5vw;
+    width:90vw;
+    /* change margin as well as width*/
+   /* background-color: blue;*/
+   /* opacity: 40%; */
+    position:absolute;
+    top: 0px;
+    left:0px;
+    height:calc((2305 / 4042)*100vw);
+    object-fit: contain;
+    display: flex;
+    justify-content: space-evenly;
+}
+#timezones{
+    width:100%;
+    height:max-content;
+    background-color: black;
+    margin:0;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
