@@ -11,7 +11,7 @@
 .vertical-line {
     width: 5px;
     /*height: calc((2305 / 4000)*90vw);*/
-    height: 1190px;
+    height: 1220px;
     background-color: black;
 
     /* margin: 45px; */
@@ -29,7 +29,7 @@ background-color:rgb(171, 207, 255);
     top: 90px;
     left:8px;
     /*height:calc((2305 / 4042)*100vw);*/
-    height: 90%;
+    height: 95%;
     object-fit: contain;
     display: flex;
     justify-content: space-evenly;
